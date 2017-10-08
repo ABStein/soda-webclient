@@ -1,0 +1,8 @@
+<h1>Living That Soda Life</h1>
+
+<% @sodas.each do |soda| %>
+  <h2><%= soda['soda_name'] %></h2>
+  <h2><%= soda['ditributor'] %></h2>
+  <h2><%= soda['color'] %></h2>
+  <h2><%= soda['calories'] %></h2>
+<% end %>

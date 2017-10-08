@@ -1,0 +1,17 @@
+<%= form_tag '/sodas', method: :post do %>
+  <div>
+    Soda Name: <input type="text" name="soda_name">
+    </div>
+      <div>
+        Distributor: <input type="text" name="distributor">
+        </div>
+          <div>
+            Color: <input type="text" name="color">  
+            </div>
+              <div>
+                Calories: <input type="text" name="calories">  
+                </div>
+                  <div>
+                    <input type="submit" value="Save">
+                    </div>
+<% end %>                    
